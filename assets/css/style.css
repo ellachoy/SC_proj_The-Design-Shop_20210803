@@ -32,14 +32,14 @@ a {
   text-decoration: none;
 }
 .toogleBtn {
-  position:absolute;
-  right:30px;
-  display:none;
+  position: absolute;
+  right: 30px;
+  display: none;
 }
 /* header */
 
 header,
-header .nav_menu{
+header .nav_menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -171,25 +171,26 @@ a {
   h5 {
     font-size: 0.7em;
   }
-  header{
+  header {
     display: block;
   }
-  header h3, .toogleBtn{
-    padding-top:40px;
+  header h3,
+  .toogleBtn {
+    padding-top: 40px;
   }
   header .nav_menu {
     display: block;
     text-align: center;
   }
 
-  header .nav_menu  li {
+  header .nav_menu li {
     align-items: center;
     display: none;
   }
-  header .toogleBtn{
+  header .toogleBtn {
     display: block;
     top: 10px;
-    font-size:18px;
+    font-size: 18px;
   }
   section {
     display: block;
@@ -220,7 +221,8 @@ a {
     font-weight: 900;
     font-size: 1.2em;
   }
-  footer h6(
+  footer h6 {
     font-weight: 100;
-  )
+    font-size: 0.8em;
+  }
 }
