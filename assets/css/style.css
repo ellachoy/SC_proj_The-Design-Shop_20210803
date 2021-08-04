@@ -113,11 +113,22 @@ footer article {
   align-items: center;
   padding: 0 60px;
 }
+footer article div h4,
+h5 {
+  color: black;
+}
 footer h4 {
   margin-bottom: 15%;
 }
-footer h5 {
+footer h6 {
   padding: 50px 0 0 60px;
+}
+footer h6 span:before {
+  content: " • ";
+}
+
+.shop h5 span {
+  font-weight: bolder;
 }
 
 /* farbe: #323a45 / #848484  */
