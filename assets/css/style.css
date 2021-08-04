@@ -31,6 +31,11 @@ ul li {
 a {
   text-decoration: none;
 }
+.hamburger{
+  position:absolute;
+  right:30px;
+  display:none;
+}
 /* header */
 
 header,
@@ -39,8 +44,8 @@ header ul {
   justify-content: space-between;
   align-items: center;
 }
-header{
-padding:2.5% 10% 0;
+header {
+  padding: 2.5% 10% 0;
 }
 header ul li {
   padding-left: 45px;
@@ -66,7 +71,6 @@ section {
   justify-content: center;
   align-items: center;
   grid-gap: 2%;
-  
 }
 
 .container1 {
@@ -118,7 +122,7 @@ footer article {
   justify-content: space-around;
   align-items: center;
   padding: 0 60px;
-  font-size:0.9em;
+  font-size: 0.9em;
 }
 footer article div h4,
 h5 {
@@ -128,7 +132,7 @@ footer h4 {
   margin-bottom: 15%;
 }
 footer h6 {
- margin:5% 10%;
+  margin: 5% 10%;
 }
 footer h6 span:before {
   content: " •  ";
@@ -143,16 +147,80 @@ a {
 .contact h5:nth-of-type(1) {
   padding-top: 20px;
 }
+.newsletter h5:last-child {
+  font-style: italic;
+}
 .newsletter h5 > a {
   font-weight: 900;
-  letter-spacing:-1px;
-
-  
+  letter-spacing: -1px;
+}
 
 /* smartphone */
 @media screen and (max-width: 600px) {
   body {
     /* background-color: mediumseagreen; */
   }
+  h3,
+  h4,
+  h5,
+  h6,
+  a {
+    font-size: 0.9em;
+    line-height: 23px;
+  }
+  h5 {
+    font-size: 0.7em;
+  }
+  header{
+    display: block;
+  }
+  header h3, .hamburger{
+    padding-top:40px;
+  }
+  header ul {
+    display: block;
+    text-align: center;
+  }
 
-  
+  header ul li {
+    align-items: center;
+    display: none;
+  }
+  header .hamburger{
+    display: block;
+    top: 10px;
+    font-size:18px;
+  }
+  section {
+    display: block;
+    padding: 10%;
+  }
+  section div div {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section h5 {
+    padding-top: 7px;
+    margin-bottom: 30px;
+  }
+  footer article {
+    display: block;
+    font-size: 1em;
+    padding: 0 40px;
+  }
+  footer article div {
+    margin-bottom: 15%;
+  }
+  .contact h5:nth-of-type(1) {
+    padding-top: 1px;
+  }
+  .newsletter h5 > a {
+    font-weight: 900;
+    font-size: 1.2em;
+  }
+  footer h6(
+    font-weight: 100;
+  )
+}
