@@ -31,7 +31,7 @@ ul li {
 a {
   text-decoration: none;
 }
-.hamburger{
+.toogleBtn {
   position:absolute;
   right:30px;
   display:none;
@@ -39,7 +39,7 @@ a {
 /* header */
 
 header,
-header ul {
+header .nav_menu{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -174,19 +174,19 @@ a {
   header{
     display: block;
   }
-  header h3, .hamburger{
+  header h3, .toogleBtn{
     padding-top:40px;
   }
-  header ul {
+  header .nav_menu {
     display: block;
     text-align: center;
   }
 
-  header ul li {
+  header .nav_menu  li {
     align-items: center;
     display: none;
   }
-  header .hamburger{
+  header .toogleBtn{
     display: block;
     top: 10px;
     font-size:18px;
