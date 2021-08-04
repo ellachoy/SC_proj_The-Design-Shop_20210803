@@ -1,8 +1,10 @@
-const toggleBtn = document.querySelector('.toogleBtn');
-const menu=document.querySelector('.nav_munu');
+console.log("hallo, designShop");
 
-toggleBtn.addEventListener('click',(){
-    menu.classList.toggle('active');
 
-});
+const toogleBtn = document.quarySelector('.toogleBtn'); 
+const menu =document.querySelector('.nav_menu');
 
+toggleBtn.addEventListener('click', ()=>{
+    menu.classList.toogle('active');
+
+}); 

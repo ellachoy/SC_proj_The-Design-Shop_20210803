@@ -192,6 +192,9 @@ a {
     top: 10px;
     font-size: 18px;
   }
+  .nav_menu.active {
+    display: block;
+  }
   section {
     display: block;
     padding: 10%;
