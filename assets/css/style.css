@@ -38,13 +38,15 @@ header ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.5% 3% 0 6%;
+}
+header{
+padding:2.5% 10% 0;
 }
 header ul li {
   padding-left: 45px;
 }
 header h3 > a {
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 900;
 }
 
@@ -57,13 +59,14 @@ img:hover {
   opacity: 0.3;
 }
 section {
-  margin-top: 15%;
+  margin: 5% 0 8% 0;
   display: grid;
   grid-template-columns: repeat(3, 300px);
-  grid-template-rows: repeat(3, 500px);
+  /* grid-template-rows: repeat(3, 500px);  */
   justify-content: center;
   align-items: center;
   grid-gap: 2%;
+  
 }
 
 .container1 {
@@ -96,8 +99,7 @@ section {
   grid-row: 3/4;
 }
 section div div {
-  /* background-color: yellow; */
-  padding-top: 20px;
+  padding-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -105,9 +107,7 @@ section div div {
 section h5 {
   padding-top: 7px;
 }
-.container1 h5 {
-  padding-bottom: 130px;
-}
+
 /* footer */
 footer {
   width: 100%;
@@ -115,9 +115,10 @@ footer {
 }
 footer article {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 0 60px;
+  font-size:0.9em;
 }
 footer article div h4,
 h5 {
@@ -127,14 +128,14 @@ footer h4 {
   margin-bottom: 15%;
 }
 footer h6 {
-  padding: 50px 0 0 60px;
+ margin:5% 10%;
 }
 footer h6 span:before {
-  content: " • ";
+  content: " •  ";
 }
-
 .shop h5 > span {
-  font-weight: 800;
+  font-weight: bolder;
+  font-size: 14px;
 }
 a {
   font-size: 15px;
@@ -143,8 +144,10 @@ a {
   padding-top: 20px;
 }
 .newsletter h5 > a {
-  font-weight: 1000;
-}
+  font-weight: 900;
+  letter-spacing:-1px;
+
+  
 
 /* smartphone */
 @media screen and (max-width: 600px) {
@@ -152,10 +155,4 @@ a {
     /* background-color: mediumseagreen; */
   }
 
-  header ul {
-    display: none;
-  }
-  header ul li {
-    padding-left: 45px;
-  }
-}
+  
